@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1a1008">
+  <meta name="description" content="An interactive journey through 1,000 years of storytelling and the technologies that carried human stories.">
+  <title>A Thousand Years of Storytelling | MD. Atiqul Islam (Atik)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+    <filter id="r">
+      <feTurbulence baseFrequency=".035" numOctaves="2" seed="4"/>
+      <feDisplacementMap in="SourceGraphic" scale="4"/>
+    </filter>
+  </svg>
+  <div id="bar" aria-hidden="true"></div>
+  <div id="hint">SCROLL ↓ TO FOLLOW THE STORY</div>
+  <main id="stage">
+    <div class="rings" aria-hidden="true"><i></i><i></i><i></i></div>
+    <pre id="art" aria-label="Animated illustration"></pre>
+  </main>
+  <div class="scan" aria-hidden="true"></div>
+  <section id="cap" aria-live="polite">
+    <small id="cy"></small>
+    <h1 id="ct"></h1>
+    <p id="cd"></p>
+  </section>
+  <footer id="credit">
+    <span>DESIGNED &amp; DEVELOPED BY <strong>MD. Atiqul Islam (Atik)</strong></span>
+    <a href="mailto:atik.cmttiu1001@gmail.com">atik.cmttiu1001@gmail.com</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
